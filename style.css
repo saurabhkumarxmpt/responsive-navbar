@@ -1,0 +1,114 @@
+body{
+
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+
+    height: 60px;
+    width: 100%;
+    background-color: #657CFF;
+}
+
+nav > div{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 15px 30px;
+    letter-spacing: 1px;
+}
+
+nav > ul{
+    list-style: none;
+    float: right;
+    margin-right: 140px;
+    margin-top: -37px;
+    
+}
+
+nav > ul > li{
+
+    float: left;
+    margin-left: 50px;
+}
+
+nav > ul > li > a{
+
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-size: 17px;
+} 
+
+nav > ul > li > a:hover{
+
+    text-decoration: underline;
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    float: right;
+    margin-top: -56px;
+    margin-right: 4%;
+    display: none;
+}
+
+.line {
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+    margin: 7px 0;
+}
+@media screen and (max-width: 450px){
+
+nav{
+    height: 54px;
+}
+
+nav > div{
+    font-size: 21px;
+    padding: 15px;
+}
+
+nav > .menu-btn > .menu-span{
+    display: block;
+}
+
+nav > ul{
+
+    background-color: #657CFF;
+    margin-top: 0;
+    width: 100%;
+    padding: 0;
+    height:auto;
+    margin-left: 0;
+    margin-right: 0;
+    border-top: 1px solid gray;
+    display:none;
+    position: absolute;
+}
+
+nav > ul > li{
+    float: none;
+    text-align: center;
+    margin-left: 0;
+    margin:14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(16, 118, 177);
+    border-radius: 10px;
+}
+nav > ul > li:active{
+    background-color: rgb(74, 87, 202);
+}
+
+.hamburger{
+
+    display: block;
+    /* margin-top: ; */
+}
+}
